@@ -1,53 +1,43 @@
 [
     {
       "id": "123456",
-      "cover": "https://i.ibb.co/kBJP7PX/blog-1.jpg",
+      "cover": "../src/assets/images/1.jpg",
       "title": "The Enigmatic Chronicles",
       "author": "Cassandra Sinclair",
-      "author_img": "author_image_1.jpg",
-      "posted_date": "2024-02-14",
+      "author_img": "../src/assets/images/boy1.png",
+      "posted_date": "Jan 15, 2024",
       "reading_time": 25,
-      "hashtags": ["#mystery", "#fantasy", "#adventure"]
+      "hashtags": ["#Js", "#JS_ES6"]
     },
     {
       "id": "987654",
-      "cover": "https://i.ibb.co/J3QVDr0/blog-2.jpg",
+      "cover": "../src/assets/images/2.png",
       "title": "Echoes of Eternity",
       "author": "Sebastian Nightingale",
-      "author_img": "author_image_2.jpg",
-      "posted_date": "2024-02-13",
+      "author_img": "../src/assets/images/boy2.png",
+      "posted_date": "Feb 9, 2024",
       "reading_time": 30,
-      "hashtags": ["#scifi", "#time_travel", "#philosophy"]
+      "hashtags": ["#Beginner", "#time_travel"]
     },
     {
       "id": "234567",
-      "cover": "https://i.ibb.co/ZfxTp7K/blog-3.jpg",
+      "cover": "../src/assets/images/3.png",
       "title": "The Secret Garden of Serenity",
       "author": "Lily Mayfair",
-      "author_img": "author_image_3.jpg",
-      "posted_date": "2024-02-12",
+      "author_img": "../src/assets/images/girl1.jpg",
+      "posted_date": "Mar 12, 2024",
       "reading_time": 20,
-      "hashtags": ["#romance", "#nature", "#spirituality"]
+      "hashtags": ["#Use_react", "#React", "#Usability"]
     },
     {
       "id": "765432",
-      "cover": "https://i.ibb.co/DrZ6vPm/blog-4.jpg",
+      "cover": "../src/assets/images/4.jpg",
       "title": "Shadows of the Forgotten Realm",
       "author": "Xavier Darkwood",
-      "author_img": "author_image_4.jpg",
-      "posted_date": "2024-02-11",
+      "author_img": "../src/assets/images/girl2.jpg",
+      "posted_date": "April 11, 2024",
       "reading_time": 40,
-      "hashtags": ["#dark_fantasy", "#magic", "#intrigue"]
-    },
-    {
-      "id": "345678",
-      "cover": "https://i.ibb.co/HnYhHyh/blog-5.jpg",
-      "title": "Beyond the Horizon",
-      "author": "Isabelle Rivers",
-      "author_img": "author_image_5.jpg",
-      "posted_date": "2024-02-10",
-      "reading_time": 35,
-      "hashtags": ["#adventure", "#exploration", "#discovery"]
+      "hashtags": ["#Design", "#Work_Balance", "#intrigue"]
     }
   ]
   
