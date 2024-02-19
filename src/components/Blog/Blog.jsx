@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types';
-const Blog = ({blog}) => {
+import { IoIosBookmarks } from "react-icons/io";
+const Blog = ({blog, handleAddToBookmark}) => {
     const {title, cover, author, author_img, reading_time, posted_date, hashtags} = blog;
     return (
-        <div>
-            <img src={cover} alt={`Cover picture of the title ${title}`} />
-            <div className='flex justify-between'>
+        <div className='mb-20'>
+            <img className='w-full mb-8 rounded-xl' src={cover} alt={`Cover picture of the title ${title}`} />
+            <div className='flex justify-between mb-4'>
                 <div className='flex'>
                     <img className='w-14' src={author_img} alt="" />
                     <div className='ml-6'>
@@ -12,8 +13,11 @@ const Blog = ({blog}) => {
                         <p className='text-xl'>{posted_date}</p>
                     </div>
                 </div>
-                <div>
-                    <span>{reading_time} min read</span> 
+                <div >
+                    <span className='align-middle'>{reading_time} min read</span> 
+                    <button
+                    onClick={() => handleAddToBookmark(blog)}
+                     className='ml-2 text-2xl text-blue-950 align-middle'><IoIosBookmarks></IoIosBookmarks></button>
                 </div>
             </div>
             <h2 className='text-4xl'>{title}</h2>
@@ -27,6 +31,7 @@ const Blog = ({blog}) => {
 };
 
 Blog.propTypes = {
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
+    handleAddToBookmark: PropTypes.func
 }
 export default Blog;
